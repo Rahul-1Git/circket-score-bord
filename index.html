@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>score board</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <center>
+    <h1><u>CRICKET SCORE BOARD</u></h1>
+    <table id="table1" class="styled-table">
+        <thead>
+   <tr>
+    <th><h2 id="run">RUNS : 0</h2></th>
+    <th><h2 id="wicket">WICKET : 0</h2>
+    <th><h2 id="over">OVER : 0</h2></th>
+    <th><h2 id = "ball">BALLS : 0</h2></th>
+   </tr>
+        </thead>
+        <tbody>
+   <tr>
+    <td>
+    <button onclick="run1()">+1</button>
+    <button onclick="run2()">+2</button>
+    <button onclick="run4()">+4</button>
+    <button onclick="run6()">+6</button>
+    </td>   
+
+    <td>
+    <button onclick="wicket1()">+1</button>
+    </td>
+
+    <td>
+    <button onclick="over1()">+1</button>
+    </td>
+   
+    <td>
+    <button onclick="ball1()">+1</button>
+    </td>
+
+   </tr>
+        </tbody>
+    </table>
+
+     <br><br>
+    <button onclick="reset()"> RESET </button>
+    </center>
+    <script src="index.js"></script>
+</body>
+</html>
